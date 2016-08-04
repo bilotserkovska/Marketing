@@ -1,0 +1,203 @@
+*{text-align: center;}
+a{
+    text-decoration: none !important;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none !important;
+    background: #ed4016;
+    border-radius: 9px;
+    display: inline-block;
+    padding: 11px 25px;
+    font-size: 30px;
+    box-shadow: 1px 1px 0px #bd665d, -2px -2px 0px #bd665d;
+    -webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+}
+a:hover{
+	opacity: .8;
+	text-decoration: none;
+	color: #fff;
+}
+a:focus{
+	text-decoration: none;
+	color: #fff;
+}
+header{
+	position: relative;	
+	color:#fff;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#17a0e8+0,19b0ff+22,1ab1fa+42,1ab1fa+42,1aafff+54,18affe+77,207cca+100,11a2f1+100 */
+background: rgb(23,160,232); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(23,160,232,1) 0%, rgba(25,176,255,1) 22%, rgba(26,177,250,1) 42%, rgba(26,177,250,1) 42%, rgba(26,175,255,1) 54%, rgba(24,175,254,1) 77%, rgba(32,124,202,1) 100%, rgba(17,162,241,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(23,160,232,1) 0%,rgba(25,176,255,1) 22%,rgba(26,177,250,1) 42%,rgba(26,177,250,1) 42%,rgba(26,175,255,1) 54%,rgba(24,175,254,1) 77%,rgba(32,124,202,1) 100%,rgba(17,162,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(23,160,232,1) 0%,rgba(25,176,255,1) 22%,rgba(26,177,250,1) 42%,rgba(26,177,250,1) 42%,rgba(26,175,255,1) 54%,rgba(24,175,254,1) 77%,rgba(32,124,202,1) 100%,rgba(17,162,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17a0e8', endColorstr='#11a2f1',GradientType=1 ); /* IE6-9 */
+
+}
+header a{
+    margin: 44px 0 9px 0;	
+}
+header h3{
+	font-size: 23px;
+    font-style: italic;
+}
+header h1{
+	font-size: 40px;
+    margin-top: 9%;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+header h2{
+	font-size: 30px;
+    margin: 0 0 40px 0;
+    text-transform: lowercase;
+}
+.bottom-box{
+	height: 47px;
+	background-color:#0f8ed1 !important;
+	background: url(../images/shadow-button.png)no-repeat 50% 50%;
+}
+.left-hand{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	max-width: 18%;
+}
+.right-hand{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	max-width: 18%;
+}
+.about{
+	margin: 13px 0 54px 0;
+}
+.about h1{
+	color: red;
+    display: inline-block;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.about .row{
+    width: 885px;
+    margin: -25px auto 0;
+    padding: 50px 0 79px;
+    border: 2px solid #18a1e7;
+    border-radius: 5px;
+}
+figcaption{
+	display: inline-block;
+    margin: 8px 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.info-box{
+    background: #18a1e7;
+    color: #fff;
+    margin: -42px auto 0;
+    width: 62%;
+    border-radius: 9px;
+    font-size: 21px;
+    padding: 0 10px;
+}
+.information{
+	background: #0f8fce;
+	color: #fff;
+}
+.information h1{
+	font-size: 34px;
+	margin: 72px 0 0 0;
+	padding: 17px 0px 0 0;
+}
+.course_1{
+	width: 300px;
+    height: 300px;
+    background: url(../images/cloud1.png);
+    margin: 0 50%;
+}
+.info-content{
+    background: url(../images/megaphone.png) no-repeat 0 50%;
+    background-size: 35%;
+}
+.course_1 {
+    width: 542px;
+    -max-height: 318px;
+    background: url(../images/cloud1.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 1% 0 0 34%;
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 80px 30px 0 60px;
+    line-height: 31px;
+}
+.course_2 {
+    max-width: 542px;
+    height: 266px;
+    background: url(../images/cloud2.png) no-repeat;
+    background-size: 100% 100%;
+    margin: -4% 0 0 56%;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 80px 30px 0 70px;
+    line-height: 31px;
+}
+.course_3 {
+    max-width: 536px;
+    height: 271px;
+    background: url(../images/cloud3.png) no-repeat;
+    background-size: 100% 100%;
+    margin: -6% 0 0 30%;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 80px 30px 0 70px;
+    line-height: 31px;
+}
+.information a{
+	margin: 41px 0 6px 0;
+}
+.limit{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0;
+    padding: 2px 0 40px 0;
+}
+@media (max-width: 1199px){
+	.course_1{
+		margin: 1% 0 1% 26%;
+	}
+	.course_2{
+		margin: 0% 0 1% 42%;
+	}
+	.course_3{
+		margin: 0% 0 1% 26%;
+	}
+}
+@media (max-width: 991px){
+	.about .row{
+		width: 660px;
+    	padding: 50px 0 95px;
+	}
+	.info-box{
+		margin: -80px auto 0;
+	}
+	a{
+		font-size: 25px;
+	}
+	header h3 {
+	    font-size: 20px;
+	}
+	header h1{
+		font-size: 30px;
+	}
+	header h2{
+		font-size: 25px;
+	}
+	.information h1{
+		font-size: 25px;
+	}
+}
